@@ -6,7 +6,7 @@ from PIL import Image
 
 # Replace with your actual Telegram bot token and Gemini API key
 API_TOKEN = '7845334828:AAGw0unzZb47RqdoYT8Q92eWtliwJiQxcwA'
-GEMINI_API_KEY = 'AIzaSyDIR8zAVL8dIZX-UcPmY50a9cujZzNaiiI'
+GEMINI_API_KEY = ''
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
