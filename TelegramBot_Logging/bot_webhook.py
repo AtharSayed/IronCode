@@ -4,7 +4,7 @@ import os
 import datetime
 import asyncio
 
-TOKEN = "8101018966:AAHqVeW94cAfanESpG7txbskBUSp-u8Bb-s"
+TOKEN = ""
 bot = telegram.Bot(token=TOKEN)
 app = Flask(__name__)
 
