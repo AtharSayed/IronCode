@@ -10,14 +10,16 @@ def palindrome(n):
         temp = temp//10
     return rev
 
-try:
-    n= int(input("Enter the number : "))
-    if n<0:
-        print("Enter a positive number !")
-    res = palindrome(n)
-    if n ==res:
-        print("The number is a palindrome !")
-    else:
-        print("The number is not a palindrome !")
-except ValueError:
+# Adding main function as the main entry point for the program
+if __name__ =="__main__":
+    try:
+        n = int(input("Enter the number : "))
+        if n < 0:
+            print("Enter a positive number !")
+        res = palindrome(n)
+        if n == res:
+            print("The number is a palindrome !")
+        else:
+            print("The number is not a palindrome !")
+    except ValueError:
         print("Enter a valid number and try again !")
