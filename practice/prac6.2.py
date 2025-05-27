@@ -1,9 +1,9 @@
-from prac6 import checkarm  # Importing function from the previous code file
+from prac6 import armstrong  # Importing function from the previous code file
 
 if __name__=="__main__":
     try:
         n = int(input("Enter the number : "))
-        res = checkarm(n)
+        res = armstrong(n)
         if res == n :
             print("The number is armstrong number ")
         else:
