@@ -1,18 +1,18 @@
-# Removing Duplicates Elements in the sorted array
+# removing duplicate elements in a sorted array
 
 class Solution(object):
-    def removeDuplicates(self, nums):
+    def removeDuplicates(self,n):
         i = 0
-        while i < len(nums)-1:
-            if nums[i] ==nums[i+1]:
-                nums.pop(i+1)
+        while i < len(n)-1:
+            if n[i] == n[i+1]:
+                n.pop(i+1)
             else:
                 i+=1
-        return len(nums)
+        return len(n)
+
 
 if __name__ =="__main__":
     demo = Solution()
-    nums = [0,1,1,2,3,3,4]
-    res =demo.removeDuplicates(nums)
-    print("The total number of unique elements  in the array are : ",res)
-
+    n = [0,1,1,2,3,3,4]
+    count = demo.removeDuplicates(n)
+    print("The number of unique elements are : : ",count)
