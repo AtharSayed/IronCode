@@ -15,3 +15,8 @@ if __name__ =="__main__":
     demo = Solution()
     res = demo.checkpwer(n)
     print(res)
+
+
+
+
+
