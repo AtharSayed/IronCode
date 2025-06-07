@@ -1,4 +1,4 @@
-# capitalize the title
+# capitalize the title at every starting word 
 class Solution():
     def capitalizeTitle(self,n):
         n = n.split()
