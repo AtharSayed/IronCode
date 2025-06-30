@@ -6,10 +6,10 @@ def selectionsort(mylist):
         min_index = i
         for j in range(i+1,n):
             if mylist[j]<mylist[min_index]:
-                mylist[min_index]=j
+                min_index=j
             mylist[i],mylist[min_index]=mylist[min_index],mylist[i]
     return mylist
-
+    
 if __name__ =="__main__":
     mylist = [4,3,5,2,1]
     res = selectionsort(mylist)
