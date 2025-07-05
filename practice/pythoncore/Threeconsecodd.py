@@ -4,10 +4,10 @@ def fun(arr):
     for nums in arr:
         if nums%2 != 0:
             count +=1
-        if count == 3:
-            return True
-    else:
-        count = 0
+            if count == 3:
+                return True
+        else:
+            count = 0
     return False
 
 if __name__ =="__main__":
